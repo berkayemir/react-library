@@ -1,10 +1,17 @@
 import React from 'react'
 
-import { ExampleComponent } from 'berkayui'
+import { ExampleComponent,Button } from 'berkayui'
 import 'berkayui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+  <>
+  <ExampleComponent text="Merhaba" />
+  <Button  text="Click" type="primary" />
+  </>
+  )
 }
+
+
 
 export default App
